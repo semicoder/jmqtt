@@ -1,0 +1,12 @@
+rootProject.name = 'jmqtt'
+include 'core'
+include 'broker'
+include 'auth'
+include 'cluster'
+include 'session'
+include 'session-redisson'
+include 'interception'
+include 'auth-file'
+include 'auth-db'
+include 'auth-mongo'
+

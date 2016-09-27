@@ -1,0 +1,173 @@
+{
+  "groups": [
+    {
+      "name": "jmqtt.acceptor",
+      "type": "org.jmqtt.broker.config.AcceptorProperties",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties"
+    },
+    {
+      "name": "jmqtt.db",
+      "type": "org.jmqtt.broker.config.DbProperties",
+      "sourceType": "org.jmqtt.broker.config.DbProperties"
+    },
+    {
+      "name": "jmqtt.redisson",
+      "type": "org.jmqtt.broker.config.RedissonProperties",
+      "sourceType": "org.jmqtt.broker.config.RedissonProperties"
+    },
+    {
+      "name": "jmqtt.ssl",
+      "type": "org.jmqtt.broker.config.SslProperties",
+      "sourceType": "org.jmqtt.broker.config.SslProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jmqtt.acceptor.allow-anonymous",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jmqtt.acceptor.allow-zero-byte-client-id",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "jmqtt.acceptor.boss-count",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jmqtt.acceptor.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "jmqtt.acceptor.host",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": "0.0.0.0"
+    },
+    {
+      "name": "jmqtt.acceptor.mqtt-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "jmqtt.acceptor.mqtt-port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": 1883
+    },
+    {
+      "name": "jmqtt.acceptor.mqtts-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jmqtt.acceptor.mqtts-port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": 8883
+    },
+    {
+      "name": "jmqtt.acceptor.needs-client-auth",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jmqtt.acceptor.work-count",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jmqtt.acceptor.ws-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jmqtt.acceptor.ws-port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties"
+    },
+    {
+      "name": "jmqtt.acceptor.wss-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jmqtt.acceptor.wss-port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.AcceptorProperties"
+    },
+    {
+      "name": "jmqtt.db.digest-method",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.DbProperties"
+    },
+    {
+      "name": "jmqtt.db.driver",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.DbProperties"
+    },
+    {
+      "name": "jmqtt.db.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.DbProperties"
+    },
+    {
+      "name": "jmqtt.db.sql-query",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.DbProperties"
+    },
+    {
+      "name": "jmqtt.redisson.address",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.RedissonProperties",
+      "defaultValue": "127.0.0.1:6379"
+    },
+    {
+      "name": "jmqtt.redisson.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.jmqtt.broker.config.RedissonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jmqtt.redisson.password",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.RedissonProperties"
+    },
+    {
+      "name": "jmqtt.ssl.jks-path",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.SslProperties"
+    },
+    {
+      "name": "jmqtt.ssl.key-manager-password",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.SslProperties"
+    },
+    {
+      "name": "jmqtt.ssl.key-store-password",
+      "type": "java.lang.String",
+      "sourceType": "org.jmqtt.broker.config.SslProperties"
+    },
+    {
+      "name": "jmqtt.ssl.needs-client-auth",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.jmqtt.broker.config.SslProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

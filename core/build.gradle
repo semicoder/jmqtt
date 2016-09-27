@@ -1,0 +1,13 @@
+group 'org.jmqtt'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+dependencies {
+    compile "io.netty:netty-common:4.0.40.Final"
+    compile "io.netty:netty-buffer:4.0.40.Final"
+    compile "io.netty:netty-codec:4.0.40.Final"
+    compile "org.slf4j:jcl-over-slf4j"
+    compile "org.slf4j:jul-to-slf4j"
+    compile "org.slf4j:slf4j-api"
+}

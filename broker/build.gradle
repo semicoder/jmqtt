@@ -1,0 +1,20 @@
+group 'org.jmqtt'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+springBoot {
+    executable = true
+}
+
+dependencies {
+    compile project(":core")
+    compile project(":session")
+    compile project(":auth")
+    compile project(":auth-mongo")
+    compile project(":interception")
+    compile project(":session-redisson")
+    compile "io.netty:netty-transport:4.0.40.Final"
+    compile "io.netty:netty-handler:4.0.40.Final"
+    compile "io.netty:netty-codec-http:4.0.40.Final"
+}

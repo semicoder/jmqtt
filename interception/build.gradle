@@ -1,0 +1,8 @@
+group 'org.jmqtt'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+dependencies {
+    compile project(":session")
+}
